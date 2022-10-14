@@ -1,0 +1,107 @@
+(i)Programming language to differintiate between square and Rectangle values.
+
+void main() {
+int l = 8;
+int b = 8;
+
+if(l>b){
+  print ("Rectangle values");
+}
+  else if(l==b){
+   print("square values");
+ }
+ 
+  
+ 
+}
+(iii)Programming to make percentage of the total classes.
+
+void main()
+// a is number of classes held
+{
+var a = 16;
+var b = 10;
+var c = (b/a)*100;
+if(c>=75){
+  print("student is allowed to sit in class exam");
+}
+else{
+  print("student is not allowed to sit in exam");
+}
+ 
+}
+(iii)programme to calculate temperature
+void main(){
+num a = 4;
+
+
+if(a<0){
+  print("Freezing wheather");
+
+}
+  else if(a>0&&a<10){
+    print("very cold wheather");
+  }
+  else if(a>10&&a<20){
+    print("Cold wheather");
+  }
+  else if(a>20&&a<30){
+    print("Normal Temperature");
+  }
+  else if(a>30&&a<40){
+    print("Hot");
+
+(iv)programme to calculate and  print Electricity Bill:
+void main(){
+ var a = 1002;
+ var b = "James";
+ var c = "Units consumed";
+ var d = "Amount charges";
+ var e = "Net bill amount";
+ int f = 199;
+ 
+  
+  print("Customer ID:${a}");
+  print("CustomerName:${b}");
+  print("Units Consumed:${f}");
+  if(f==199){
+
+   print("Amount Charges @Rs.${1.20}per unit : ${f*1.20}");
+   
+  
+}
+  else if(f>=200 && f<400){
+    print("Amount Charges @Rs.${1.50}per unit : ${f*1.50}");
+  }
+  else if(f>=400 && f<600){
+    print("Amount Charges @Rs.${1.80}per unit : ${f*1.80}");
+  }
+  else if(f>=600){
+    print("Amount Charges @Rs.${2.00}per unit : ${f*2.00}");
+  }
+  
+ 
+ if(f==199){
+
+   print("The total amount of bill : ${f*1.20} ");
+   
+  
+}
+  else if(f>=200 && f<400){
+    print("The total amount of bill : ${f*1.50} ");
+  }
+  else if(f>=400 && f<600){
+    print("The total amount of bill:${f*1.80}");
+  }
+  else if(f>=600){
+    print("The total amount of bill:${f*2.00} ");
+  }
+}
+
+(iv)
+    
+  }
+  else if(a>=40){
+    print("very Hot");
+  }
+}
